@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   const [isBirthday, setIsBirthday] = useState(false);
 
-  const targetDate = '2025-09-10T09:05:00';
+  const targetDate = '2025-09-11T00:00:00';
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
