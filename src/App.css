@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #e91e63;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #3f51b5;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+  audio {
+    display: none;
+  }
+  
+  /* .countdown {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  } */
+  .countdown-container {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #ff0099;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: pulse 1.5s infinite;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .time-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid #fff;
+    animation: pop 1s ease-in-out infinite alternate;
+  }
+  
+  .time-box span {
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .finished-message {
+    font-size: 2rem;
+    color: #fff700;
+    text-shadow: 2px 2px 4px #000;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ff0077;
+    animation: blink 1s infinite, fadeIn 2s ease-in-out;
+  }
+  
+  /* Animations */
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes pop {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .birthday-message {
+    background-color: #ffdde1;
+    padding: 40px;
+    border-radius: 25px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+  }
+  
